@@ -1,0 +1,95 @@
+
+
+@media (min-width: 768px) 
+{
+	.main-container
+	{		
+			display: flex;
+	}
+
+	.container 
+	{
+		border: 1px solid red; 
+		margin-top: 10px;
+		padding-bottom: 25px;
+	}
+
+	#signup-imgplaceholder
+	{
+		margin-left: 10px;
+	}
+
+	.placeholder-image
+	{
+		width: 55%;
+		max-width: 745px;
+		height: 25%;
+		max-height: 415px;
+		margin: 20px;
+	}
+
+	#signup-tab
+	{
+		width: 500px;
+		margin-left: 20px;
+		margin-right: 20px;
+		background-color: #061D2E;
+		box-shadow: 10px 10px #2B3856;
+	}
+
+	#signup-form
+	{
+		color: #D1D0CE;
+	}
+
+	#signup-hd01
+	{
+		text-align: center;
+		color: #D1D0CE;
+	}
+
+	#Label-Lname
+	{
+		margin-left: 20px;
+
+	}
+
+	#Label-Email
+	{
+		width: 417px;
+	}
+
+	#Label-Password
+	{
+		width: 417px;
+	}
+
+	#Label-Email, #Label-Fname, #Label-Lname, #Label-Password, #Label-Checkbox, #Label-Submit
+	{
+		margin-top: 35px;
+	}
+
+	.panel-footer
+	{
+		font-size: 9px;
+		margin-top: 50px;
+	}
+
+	#footer-creditlist
+	{
+		padding-left: 16px;
+	}
+
+	.fade
+	{
+		animation-name: fade;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out;
+	}
+
+	@keyframes fade 
+	{
+  		from {opacity: .4} 
+  		to {opacity: 1}
+	}
+}
