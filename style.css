@@ -4,14 +4,53 @@
 {
 	.main-container
 	{		
-			display: flex;
+		display: flex;
+		/*color: pink;*/
+		/*background-color: #4c495c;*/
+		padding-bottom: 20px;
+		padding-left: 80px;
+		padding-right: 80px;
 	}
 
-	.container 
+	#top-hd
 	{
-		border: 1px solid red; 
+		font-family: 'Cinzel', serif;
+		color: black;
+		font-size: 72px;
+	}
+
+	#bg-container
+	{
+		padding-top: 75px;
+		padding-bottom: 75px;
+		background-image: url("../Images/pexels-photo-176851.jpeg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		/*margin-right: 1cm;
+		margin-left: 1cm;*/	
+	}
+/*
+	#bg-image
+	{
+		background-image: url("../Images/japan online articles.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		padding-bottom: 5cm;
+	}*/
+
+	/*.bg-textures
+	{
+		background-color: #cccccc;
+	}*/
+
+	.form-container 
+	{
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		/*border: 1px solid #0b0366; */
 		margin-top: 10px;
-		padding-bottom: 25px;
 	}
 
 	#signup-imgplaceholder
@@ -19,33 +58,56 @@
 		margin-left: 10px;
 	}
 
-	.placeholder-image
-	{
-		width: 55%;
-		max-width: 745px;
-		height: 25%;
-		max-height: 415px;
-		margin: 20px;
-	}
-
 	#signup-tab
 	{
 		width: 500px;
-		margin-left: 20px;
+		/*margin-left: 20px;*/
 		margin-right: 20px;
-		background-color: #061D2E;
-		box-shadow: 10px 10px #2B3856;
+		/*background-image: url("../Images/form-background.jpg");*/
+		/*background-color: #893200;*/
+		/*background: linear-gradient(#013b99 75%, #04d6b6, #c438bf);*/
+		/*background-color: -o-linear-gradient(#013b99, #04d6b6);*/
+		/*color: -o-linear-gradient(red, yellow, green);*/
+		/*box-shadow: 10px 10px #2B3856;*/
+		padding-bottom: 25px;
+	}
+
+	#signup-text-hd01
+	{
+		font-size: 38px;
+	}
+
+	#signup-text-para01
+	{
+		font-size: 20px;
 	}
 
 	#signup-form
 	{
-		color: #D1D0CE;
+		color: white;
+		/*margin-right: -24px;
+		margin-left: -24px;*/
 	}
+
+	#signup-text
+	{
+		color: white;
+		text-align: justify;
+		font-family: 'Cinzel', serif;
+		padding-left: 10px;
+		padding-right: 3.5cm;
+		word-spacing: 10px;
+		line-height: 25px;
+	}
+
 
 	#signup-hd01
 	{
+		font-family: 'Cinzel', serif;
 		text-align: center;
-		color: #D1D0CE;
+		/*text-shadow: 2px 2px #d68204;*/
+		color: white;
+		font-size: 48px;
 	}
 
 	#Label-Lname
@@ -64,15 +126,32 @@
 		width: 417px;
 	}
 
-	#Label-Email, #Label-Fname, #Label-Lname, #Label-Password, #Label-Checkbox, #Label-Submit
+	#Label-Email, #Label-Fname, #Label-Lname, #Label-Password, #Label-Checkbox
 	{
 		margin-top: 35px;
+	}
+
+	#Label-Email, #Label-Fname, #Label-Lname, #Label-Password
+	{
+		background-color: #dbdde0;
+		border-right: 1px black solid;
+		border-bottom: 1px black solid;
+		box-shadow: 2px 2px 2px black;
+	}
+
+	#Label-Submit
+	{
+		margin-top: 20px;
+		margin-left: 34%;
+		width: 3cm;
+		height: 1.2cm;
+		box-shadow: 2px 2px 2px black;
 	}
 
 	.panel-footer
 	{
 		font-size: 9px;
-		margin-top: 50px;
+		margin-top: 300px;
 	}
 
 	#footer-creditlist
@@ -84,7 +163,7 @@
 	{
 		animation-name: fade;
 		animation-duration: 5s;
-		animation-timing-function: ease-in-out;
+		animation-timing-function: ease-in;
 	}
 
 	@keyframes fade 
