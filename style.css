@@ -2,15 +2,6 @@
 
 @media (min-width: 768px) 
 {
-	.main-container
-	{		
-		display: flex;
-		/*color: pink;*/
-		/*background-color: #4c495c;*/
-		padding-bottom: 20px;
-		padding-left: 80px;
-		padding-right: 80px;
-	}
 
 	#top-hd
 	{
@@ -19,9 +10,21 @@
 		font-size: 72px;
 	}
 
+	.mynavbar
+	{
+		position: relative;
+		min-height: 50px;
+		border: 1px solid transparent;
+	}
+
 	#bg-container
 	{
-		padding-top: 75px;
+		display: flex;
+		/*color: pink;*/
+		/*background-color: #4c495c;*/
+		padding-left: 80px;
+		padding-right: 80px;
+		padding-top: 125px;
 		padding-bottom: 75px;
 		background-image: url("../Images/pexels-photo-176851.jpeg");
 		background-size: 100% 100%;
