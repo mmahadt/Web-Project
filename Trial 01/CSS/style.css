@@ -1,5 +1,3 @@
-
-
 @media (min-width: 768px) 
 {
 
@@ -9,35 +7,17 @@
 		color: black;
 		font-size: 72px;
 		text-align: center;
+		/*font-weight: 900;*/
 	}
 
-	.mynavbar
-	{
-		position: relative;
-		min-height: 50px;
-		border: 1px solid transparent;
-	}
-
-	.mynavbar a
-	{
-		font-color: white;
-		margin-left: 5px;
-		margin-right: 5px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		background-color: #55a92e;
-		border-radius: 10px;
-
-	}
-
-	#bg-container
+	#signup-container
 	{
 		display: flex;
 		/*color: pink;*/
 		/*background-color: #4c495c;*/
 		padding-left: 80px;
 		padding-right: 80px;
-		padding-top: 125px;
+		padding-top: 75px;
 		padding-bottom: 75px;
 		background-image: url("../Images/pexels-photo-176851.jpeg");
 		background-size: 100% 100%;
@@ -46,6 +26,52 @@
 		/*margin-right: 1cm;
 		margin-left: 1cm;*/	
 	}
+
+	#aboutus-container > #aboutus-img-container
+	{
+		display: flex;
+		/*color: pink;*/
+		/*background-color: #4c495c;*/
+		
+	}
+
+	.aboutus
+	{
+		margin: 0px 50px 50px 50px;
+		padding: 50px;
+		
+	}
+
+	.aboutus-img-sizing
+	{
+		width: 250px;
+		height: 250px;
+		border-radius: 25px;
+	}
+
+	.aboutus-figcap
+	{
+		margin-left: 15px;
+	}
+
+	#aboutus-container > #aboutus-hd01
+	{
+		padding-left: 80px;
+		padding-right: 80px;
+		padding-top: 50px;
+		/*padding-bottom: 75px;	*/
+		font-family: 'Cinzel', serif;
+		color: black;
+		font-size: 56px;
+		font-weight: 900;
+	}
+
+
+	.main-container > .navbar-inverse
+	{
+		margin-bottom: 0px;
+	}
+
 
 /*
 	#bg-image
@@ -121,6 +147,13 @@
 		padding-right: 2.5cm;
 		word-spacing: 10px;
 		line-height: 25px;
+	/*	border: 4px solid white;
+		border-radius: 900px;
+		width: 500px;
+		height: 400px;*/
+		/*-moz-border-radius: 500px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;*/
 	}
 
 
