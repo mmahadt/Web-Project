@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sign Up</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -22,14 +22,14 @@
 			</div>
 		</div>
 		<div class="main-container">
-			<nav class="mynavbar navbar-inverse">
+			<nav class="navbar navbar-inverse">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
 			      <a class="navbar-brand" href="#">WebSiteLogo</a>
 			    </div>
 			    <ul class="nav navbar-nav">
 			      <li class="active"><a href="#">Home</a></li>
-			      <li><a href="#">Page 1</a></li>
+			      <li class="nav-links"><a href="#">Page 1</a></li>
 			      <li><a href="#">Page 2</a></li> 
 			      <li><a href="#">Page 3</a></li> 
 			    </ul>
@@ -39,32 +39,58 @@
     			</ul>
 			  </div>
 			</nav>
-				<div id="bg-container">
-					<div id="signup-text">
-						<h2 id="signup-text-hd01">Are you looking the best way to prepare your Entrance Test Exam?</h2>
-						<p id="signup-text-para01">This website is your complete resource to get admission in the top ranked universities of Pakistan. Our team consists of toppers from several universities. We have collected more than 2000 MCQs from Past Papers of NUST, MCAT, GIKI, PIEAS and FAST, over the last three years and are making them available to you through this platform. Join us for practicing past paper MCQs, getting tips from the toppers, learning tricks to solve MCQs and having sincere advice at each stage of your entry test.
-						</p>
+			<div id="signup-container">
+				<div id="signup-text">
+					<h2 id="signup-text-hd01">Are you looking the best way to prepare your Entrance Test Exam?</h2>
+					<p id="signup-text-para01">This website is your complete resource to get admission in the top ranked universities of Pakistan. Our team consists of toppers from several universities. We have collected more than 2000 MCQs from Past Papers of NUST, MCAT, GIKI, PIEAS and FAST, over the last three years and are making them available to you through this platform. Join us for practicing past paper MCQs, getting tips from the toppers, learning tricks to solve MCQs and having sincere advice at each stage of your entry test.
+					</p>
+				</div>
+				<div id="signup-tab" class="form-container">
+					<h2 id="signup-hd01">Sign Up</h2>
+					<form id="signup-form">
+					  	<div class="form-inline">
+					      <input id="Label-Fname" type="Name" class="form-control" placeholder="Enter First Name">
+					      <input id="Label-Lname" type="Name" class="form-control" placeholder="Enter Last Name";>
+					    </div>
+					    <div class="form-inline">
+					      <input id="Label-Email" type="email" class="form-control" placeholder="Enter email">
+					    </div>
+					    <div class="form-inline">
+					      <input id="Label-Password" type="password" class="form-control" placeholder="Enter password">
+					    </div>
+					    <div  id="Label-Checkbox" class="checkbox">
+					      <label><input type="checkbox"> Remember me</label>
+					    </div>
+					    <button id="Label-Submit" type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			</div>
+			<div id="aboutus-container">
+				<div id="aboutus-hd01">
+					<h1>F&nbsp&nbsp&nbsp&nbspO&nbsp&nbsp&nbsp&nbspU&nbsp&nbsp&nbsp&nbspN&nbsp&nbsp&nbsp&nbspD&nbsp&nbsp&nbsp&nbspE&nbsp&nbsp&nbsp&nbspR&nbsp&nbsp&nbsp&nbspS</h1>
+				</div>
+				<div id="aboutus-img-container">
+					<div class="aboutus">
+						<figure>
+								<img class="aboutus-img-sizing" src="Images/1397737.jpg">
+								<figcaption class="aboutus-figcap">Nightimes</figcaption>
+						</figure>
 					</div>
-					<div id="signup-tab" class="form-container">
-						<h2 id="signup-hd01">Sign Up</h2>
-						<form id="signup-form">
-						  	<div class="form-inline">
-						      <input id="Label-Fname" type="Name" class="form-control" placeholder="Enter First Name">
-						      <input id="Label-Lname" type="Name" class="form-control" placeholder="Enter Last Name";>
-						    </div>
-						    <div class="form-inline">
-						      <input id="Label-Email" type="email" class="form-control" placeholder="Enter email">
-						    </div>
-						    <div class="form-inline">
-						      <input id="Label-Password" type="password" class="form-control" placeholder="Enter password">
-						    </div>
-						    <div  id="Label-Checkbox" class="checkbox">
-						      <label><input type="checkbox"> Remember me</label>
-						    </div>
-						    <button id="Label-Submit" type="submit" class="btn btn-default">Submit</button>
-						</form>
+					<div class="aboutus">
+						<figure>
+								<img class="aboutus-img-sizing" src="Images/evLXrqN.jpg">
+								<figcaption class="aboutus-figcap">Cosmos</figcaption>
+						</figure>
+					</div>
+					<div class="aboutus">
+						<figure>
+								<img class="aboutus-img-sizing" src="Images/lights-night-dark-abstract.jpeg">
+								<figcaption class="aboutus-figcap">Bright Lights</figcaption>
+						</figure>
 					</div>
 				</div>
+				
+			</div>
 		</div>
 	</div>
 </body>
