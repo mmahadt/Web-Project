@@ -1,236 +1,210 @@
-@media (min-width: 768px) 
+* 
 {
+    box-sizing: border-box;
+}
 
-	#top-hd
-	{
-		font-family: 'Cinzel', serif;
-		color: black;
-		font-size: 72px;
-		text-align: center;
-		/*font-weight: 900;*/
-	}
+/*The columns inside a row are all floating to the left, and 
+are therefore taken out of the flow of the page, and other 
+elements will be placed as if the columns do not exist. To 
+prevent this, we will add a style that clears the flow:*/
 
-	#signup-container
-	{
-		display: flex;
-		/*color: pink;*/
-		/*background-color: #4c495c;*/
-		padding-left: 80px;
-		padding-right: 80px;
-		padding-top: 75px;
-		padding-bottom: 75px;
-		background-image: url("../Images/pexels-photo-176851.jpeg");
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		color: white;
-		/*margin-right: 1cm;
-		margin-left: 1cm;*/	
-	}
+.site-hd
+{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
 
-	#aboutus-container > #aboutus-img-container
-	{
-		display: flex;
-		/*color: pink;*/
-		/*background-color: #4c495c;*/
-		
-	}
+#my-container-01
+{
+    background-image: url("../Images/pexels-photo-176851.jpeg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
-	.aboutus
-	{
-		margin: 0px 50px 50px 50px;
-		padding: 50px;
-		
-	}
+#my-sub-container-01
+{
+    color: white;
+    font-weight: 900;
+    font-family: 'Cinzel', serif;
+    padding-right: 50px;
+    text-align: justify;
+}
 
-	.aboutus-img-sizing
-	{
-		width: 250px;
-		height: 250px;
-		border-radius: 25px;
-	}
+#my-sub-container-text-01
+{
+    font-size: 20px;
+}
 
-	.aboutus-figcap
-	{
-		margin-left: 15px;
-	}
+#my-sub-container-02
+{
+    margin-top: 20px;
+}
 
-	#aboutus-container > #aboutus-hd01
-	{
-		padding-left: 80px;
-		padding-right: 80px;
-		padding-top: 50px;
-		/*padding-bottom: 75px;	*/
-		font-family: 'Cinzel', serif;
-		color: black;
-		font-size: 56px;
-		font-weight: 900;
-	}
+#my-sub-container-hd-02
+{
+    margin-bottom: 40px;
+}
 
+#my-sub-container-02-signupform
+{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    transition: ease-in 1s;
+}
 
-	.main-container > .navbar-inverse
-	{
-		margin-bottom: 0px;
-	}
+#my-sub-container-02-signupform:hover
+{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 3px;
+    box-shadow: 2px 2px black;
+}
 
+#my-sub-container-02-signupform.focused
+{
+    transition: ease-in 1s;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 3px;
+    box-shadow: 2px 2px black;
+}
 
-/*
-	#bg-image
-	{
-		background-image: url("../Images/japan online articles.jpg");
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		padding-bottom: 5cm;
-	}*/
+#my-sub-container-hd-02
+{
+    font-family: 'Cinzel', serif;
+    color: white;
+    padding: 0px 40px 0px 40px;
+    margin-left: 30%;
+}
 
-	/*.bg-textures
-	{
-		background-color: #cccccc;
-	}*/
+.my-sub-container-02-input
+{
+    margin: 20px 35px 15px 40px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #272822;
+    color: white;
+}
 
-	.form-container 
-	{
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-right: auto;
-		margin-left: auto;
-		/*border: 1px solid #0b0366; */
-		margin-top: 10px;
-	}
+.my-sub-container-02-input:focus
+{
+    outline: none !important;
+}
 
-	#signup-imgplaceholder
-	{
-		margin-left: 10px;
-	}
+.my-sub-container-02-label
+{
+    margin: 20px 35px 15px 44px;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
 
-	#signup-tab
-	{
-		width: 500px;
-		/*margin-left: 20px;*/
-		margin-right: 20px;
-		/*background-image: url("../Images/form-background.jpg");*/
-		/*background-color: #893200;*/
-		/*background: linear-gradient(#013b99 75%, #04d6b6, #c438bf);*/
-		/*background-color: -o-linear-gradient(#013b99, #04d6b6);*/
-		/*color: -o-linear-gradient(red, yellow, green);*/
-		/*box-shadow: 10px 10px #2B3856;*/
-		padding-bottom: 25px;
-	}
-
-	#signup-text-hd01
-	{
-		font-size: 38px;
-	}
-
-	#signup-text-para01
-	{
-		font-size: 20px;
-	}
-
-	#signup-form
-	{
-		color: white;
-		/*font-family: 'Cinzel', serif;
-		font-size: 20px;
-		margin-right: 60px;*/
-		/*margin-right: -24px;
-		margin-left: -24px;*/
-	}
-
-	#signup-text
-	{
-		/*color: black;*/
-		text-align: justify;
-		font-family: 'Cinzel', serif;
-		font-weight: 900;
-		/*text-shadow: 10px 10px black;*/
-		padding-left: 10px;
-		padding-right: 2.5cm;
-		word-spacing: 10px;
-		line-height: 25px;
-	/*	border: 4px solid white;
-		border-radius: 900px;
-		width: 500px;
-		height: 400px;*/
-		/*-moz-border-radius: 500px / 50px;
-		-webkit-border-radius: 100px / 50px;
-		border-radius: 100px / 50px;*/
-	}
+#my-sub-container-02-submit
+{
+    margin-left: 40%;
+    padding: 8px 25px 8px 25px;
+    border: 2px solid #00689d;
+    border-radius: 4px;
+    background-color: #8bac39;
+    /*background: -o-radial-gradient(circle, red, yellow, green); /* Opera 11.6 to 12.0 */
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: white;
+}
 
 
-	#signup-hd01
-	{
-		font-family: 'Cinzel', serif;
-		text-align: center;
-		/*text-shadow: 2px 2px #d68204;*/
-		color: white;
-		font-size: 48px;
-	}
+#aboutus-hd01
+{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    /*padding-bottom: 75px; */
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: 56px;
+    font-weight: 900;
+}
 
-	#Label-Lname
-	{
-		margin-left: 20px;
+#aboutus-img-container
+{
+    display: flex;
+    /*color: pink;*/
+    /*background-color: #4c495c;*/
+    
+}
 
-	}
+.aboutus
+{
+    margin: 0px 50px 50px 50px;
+    padding: 50px;
+    
+}
 
-	#Label-Email
-	{
-		width: 417px;
-	}
+.aboutus-img-sizing
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
 
-	#Label-Password
-	{
-		width: 417px;
-	}
+.aboutus-figcap
+{
+    margin-left: 15px;
+}
 
-	#Label-Email, #Label-Fname, #Label-Lname, #Label-Password, #Label-Checkbox
-	{
-		margin-top: 35px;
-	}
 
-	#Label-Email, #Label-Fname, #Label-Lname, #Label-Password
-	{
-		background-color: #dbdde0;
-		border-right: 1px black solid;
-		border-bottom: 1px black solid;
-		box-shadow: 2px 2px 2px black;
-	}
 
-	#Label-Submit
-	{
-		margin-top: 20px;
-		margin-left: 34%;
-		width: 3cm;
-		height: 1.2cm;
-		box-shadow: 2px 2px 2px black;
-		background-color: #55a92e;
-		font-size: 20px;
-		font-family: 'Cinzel', serif;
-		font-weight: 900;
-		text-align: center;
-		border: 1px solid black;
-	}
+.row
+{
+    width: 100%
+}
 
-	.panel-footer
-	{
-		font-size: 9px;
-		margin-top: 300px;
-	}
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: block;
+}
 
-	#footer-creditlist
-	{
-		padding-left: 16px;
-	}
 
-	.fade
-	{
-		animation-name: fade;
-		animation-duration: 5s;
-		animation-timing-function: ease-in;
-	}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
 
-	@keyframes fade 
-	{
-  		from {opacity: .4} 
-  		to {opacity: 1}
-	}
+
+[class*="col-"] 
+{
+    /*mobile*/
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
